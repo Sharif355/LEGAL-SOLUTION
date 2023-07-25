@@ -33,7 +33,7 @@
      <header class="container mx-auto">
             <!--Nav Section-->
             <nav class="py-12">
-                <div class="navbar bg-base-100">
+                <div class="navbar bg-base-100 flex flex-col md:flex-row lg:flex-row">
                     <div class="navbar-start">
                       <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -59,8 +59,8 @@
                           <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
                       </ul>
                     </div>
-                    <div class="navbar-end">
-                      <a class="btn  text-lg font-poppins font-semibold text-white bg-[#B68C5A] rounded-lg">Free Consultation</a>
+                    <div class=" navbar-end">
+                      <a class="btn text-lg font-poppins font-semibold text-white bg-[#B68C5A] rounded-lg">Free Consultation</a>
                     </div>
                   </div>
             </nav>
@@ -218,7 +218,7 @@
         <h2 class="text-4xl font-extrabold font-garamond">Frequently Asked Any Questions</h2>
         <p class="text-base font-poppins w-auto lg:w-[714px] mx-auto ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
         <!--Accordion Section-->
-        <div class="flex justify-between gap-8 py-10 ">
+        <div class="flex flex-col-reverse lg:flex-row justify-between gap-8 py-10 ">
           <!--FAQ Container-->
           <div class="space-y-7 text-left">
             <div class="collapse collapse-plus bg-base-200 p-8">
@@ -268,7 +268,7 @@
         <h2 class="text-4xl font-extrabold font-garamond">Contact With Us</h2>
         <p class="text-base font-poppins w-auto lg:w-[714px] mx-auto ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
          
-        <div class="flex justify-between py-10 gap-7">
+        <div class="flex flex-col lg:flex-row justify-between py-10 gap-7">
           <!--Container Section-->
           <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
             <!--Card Container-->
@@ -330,7 +330,7 @@
                        <input type="text" placeholder=" Subject" class="input input-bordered" />
                      </div>
                      <div class="form-control">
-                       <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" class="input input-bordered w-[790px] h-[210px]"></textarea>
+                       <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" class="input input-bordered lg:w-[790px] h-[210px]"></textarea>
                      </div>
                       
                      <div class="form-control mt-6">
@@ -342,7 +342,7 @@
         </section>
       </main>
      <!--Footer Container-->
-     <footer class="footer p-40 text-base-content bg-[#111] text-white">
+     <footer class="footer lg:p-40 text-base-content bg-[#111] text-white">
       <div>
         <img src="images/logo.png" alt="">
         <p class="w-64 pt-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
